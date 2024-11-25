@@ -32,3 +32,7 @@
     color: #ba003b;
     font-weight: 500;
 }
+
+.link:hover {
+    color: #dc0046;
+}
