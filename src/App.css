@@ -5,7 +5,8 @@
 }
 
 body {
-  background: radial-gradient(ellipse at bottom, #030c27 0%, #020612 100%);
+  /* background: radial-gradient(ellipse at bottom, #030c27 0%, #020612 100%); */
+  background: #0D1216;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
 }

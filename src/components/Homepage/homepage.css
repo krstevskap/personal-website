@@ -16,11 +16,6 @@
     flex-wrap: wrap;
 }
 
-.first-row,
-.mark-words {
-    color: #25c1b9;
-}
-
 .second-row {
     color: #e2e8f0;
     font-size: 3.5rem;
@@ -35,6 +30,12 @@
 .third-row {
     font-size: 1.3rem;
     font-weight: 100;
+}
+
+.first-row,
+.mark-words {
+    color: #ba003b;
+    font-weight: 500;
 }
 
 .icons {
@@ -57,5 +58,5 @@ a {
 }
 
 .icons svg:hover {
-    background-color: #1e928c;
+    background-color: #ba003b;
 }

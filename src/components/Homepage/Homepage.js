@@ -7,7 +7,7 @@ const Homepage = () => {
     return (
         <div className='homepage-container'>
             <div className='content'>
-                <p className='first-row'>Hi, my name is</p>
+                <p className='first-row mark-words'>Hi, my name is</p>
                 <p className='second-row'>Petrana Krstevska</p>
                 <p className='third-row'>
                     I'm a <span className='mark-words'>software engineering</span> student who loves turning ideas into code.
