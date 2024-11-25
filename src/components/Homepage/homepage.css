@@ -60,3 +60,9 @@ a {
 .icons svg:hover {
     background-color: #ba003b;
 }
+
+@media (max-width: 640px) {
+    .content {
+        flex-direction: row;
+    }
+}

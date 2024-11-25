@@ -17,3 +17,9 @@
     gap: 1em;
     flex-wrap: wrap;
 }
+
+@media (max-width: 640px) {
+    .projects-list {
+        flex-direction: column;
+    }
+}

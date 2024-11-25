@@ -11,7 +11,7 @@ const About = () => {
                 with a passion for front-end development. I love exploring new technologies
                 and applying my skills. When I’m not coding, I enjoy unwinding with movies,
                 comics, books, and photography. I’m always looking for new ways to learn and improve,
-                and I enjoy creating projects that bring ideas to life.
+                and I enjoy creating projects.
                 Recently, I have been working with these technologies:
             </p>
             <div className='technologies'>
