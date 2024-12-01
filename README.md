@@ -5,18 +5,18 @@ Responsive personal portfolio website built with React.
 # Features
 
 - Responsive Design
-- Interactive Animations
 - Project Showcase
-- About Section 
+- About Section
 
 # Technologies Used
+
 - React
 - CSS
-- AOS (Animate on Scroll)
 - React Icons
 - GitHub Pages
 
 # Live Demo
+
 You can view the live site here: https://krstevskap.github.io/personal-website/
 
 # Installation and Setup
