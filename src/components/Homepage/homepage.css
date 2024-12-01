@@ -3,14 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: justify;
     flex-wrap: wrap;
     padding: 1em;
 }
 
 .content {
-    max-width: 700px;
-    height: 250px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -18,7 +15,7 @@
 
 .second-row {
     color: #e2e8f0;
-    font-size: 3.5rem;
+    font-size: 5rem;
     font-weight: 700;
 }
 
@@ -28,14 +25,12 @@
 
 .first-row,
 .third-row {
-    font-size: 1.3rem;
-    font-weight: 100;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
-.first-row,
 .mark-words {
     color: #ba003b;
-    font-weight: 500;
 }
 
 .icons {
@@ -44,25 +39,41 @@
     margin-top: 1.5em;
 }
 
-.icons svg {
-    font-size: 2.5rem;
-    border: 1px solid #e2e8f0;
-    border-radius: 50%;
-    padding: 8px;
-    margin-right: 1em;
-}
-
 a {
     text-decoration: none;
     color: #e2e8f0;
+    font-size: 2rem;
+    padding: 5px;
+    margin-right: 0.5em;
 }
 
-.icons svg:hover {
-    background-color: #ba003b;
+a:hover {
+    color: #ba003b;
+}
+
+@media (max-width: 1024px) {
+    .second-row {
+        font-size: 4rem;
+    }
 }
 
 @media (max-width: 640px) {
-    .content {
-        flex-direction: row;
+    .second-row {
+        font-size: 3rem;
+    }
+
+    .first-row,
+    .third-row {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .second-row {
+        font-size: 2rem;
+    }
+
+    a {
+        font-size: 1.5rem;
     }
 }

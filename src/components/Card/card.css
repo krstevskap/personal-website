@@ -1,7 +1,6 @@
 .card-container {
-    width: 300px;
-    margin: 1rem;
-    height: 430px;
+    max-width: 300px;
+    min-width: 170px;
     background: #12181d;
 }
 
@@ -35,7 +34,7 @@
 .card-button {
     background-color: #ba003b;
     border: 1px solid #ba003b;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
     cursor: pointer;
 }
 
@@ -47,6 +46,7 @@
 .card-button a {
     color: #e2e8f0;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 .card-button:hover {
@@ -57,5 +57,11 @@
     .card-container:hover {
         transform: none;
         box-shadow: rgba(82, 82, 82, 0.35) 0px 5px 15px;
+    }
+}
+
+@media (max-width: 350px) {
+    .card-button a {
+        font-size: 0.9rem;
     }
 }

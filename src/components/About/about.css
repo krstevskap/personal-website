@@ -1,7 +1,7 @@
 .about-container {
     color: #e2e8f0;
     font-size: 1.2rem;
-    font-weight: 100;
+    font-weight: 300;
     display: flex;
     flex-direction: column;
     gap: 2.5em;
@@ -19,6 +19,7 @@
 
 .technologies {
     display: flex;
+    flex-wrap: wrap;
     gap: 2em;
 }
 
@@ -31,8 +32,32 @@
     text-decoration: none;
     color: #ba003b;
     font-weight: 500;
+    font-size: 1.2rem;
 }
 
 .link:hover {
     color: #dc0046;
+}
+
+@media (max-width: 430px) {
+    .about-container {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .about-container {
+        text-align: center;
+    }
+}
+
+@media (max-width: 240px) {
+    .technologies {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
 }
