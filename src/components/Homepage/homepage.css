@@ -3,22 +3,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     padding: 1em;
 }
 
-.content {
+.wrapper {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .second-row {
-    color: #e2e8f0;
     font-size: 5rem;
     font-weight: 700;
 }
 
+.second-row,
 .third-row {
     color: #e2e8f0;
 }
@@ -35,20 +33,24 @@
 
 .icons {
     display: flex;
-    color: #e2e8f0;
     margin-top: 1.5em;
 }
 
-a {
+.homepage-container a {
     text-decoration: none;
+    margin-right: 0.5em;
     color: #e2e8f0;
     font-size: 2rem;
-    padding: 5px;
-    margin-right: 0.5em;
 }
 
-a:hover {
+.homepage-container a :nth-child(1):hover {
     color: #ba003b;
+}
+
+.homepage-container p::selection,
+.mark-words::selection {
+    color: #ba003b;
+    background-color: #e2e8f0;
 }
 
 @media (max-width: 1024px) {
@@ -66,6 +68,10 @@ a:hover {
     .third-row {
         font-size: 1.3rem;
     }
+
+    .homepage-container a {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 430px) {
@@ -73,7 +79,8 @@ a:hover {
         font-size: 2rem;
     }
 
-    a {
-        font-size: 1.5rem;
+    .first-row,
+    .third-row {
+        font-size: 1.2rem;
     }
 }

@@ -6,7 +6,7 @@ import "./homepage.css";
 const Homepage = () => {
   return (
     <div className="homepage-container">
-      <div className="content">
+      <div className="wrapper">
         <p className="first-row mark-words">Hi, my name is</p>
         <p className="second-row">Petrana Krstevska</p>
         <p className="third-row">

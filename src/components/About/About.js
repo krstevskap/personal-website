@@ -14,7 +14,7 @@ const About = () => {
           className="link"
         >
           {" "}
-          FINKI
+          Faculty of Computer Science & Engineering{" "}
         </a>
         with a passion for front-end development. I love exploring new
         technologies and applying my skills. When I’m not coding, I enjoy

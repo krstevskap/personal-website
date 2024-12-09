@@ -1,31 +1,30 @@
 .projects-container {
-    color: #e2e8f0;
-    font-size: 1.3rem;
-    font-weight: 300;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 2.5em;
     align-items: center;
-    justify-content: center;
-    text-align: justify;
+    gap: 3em;
     padding: 1em;
-    min-height: 100vh;
 }
 
-.projects-list {
+.card-list {
     display: flex;
-    gap: 1em;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2em;
 }
 
-@media (max-width: 730px) {
-    .projects-list {
-        flex-direction: column;
-        align-items: center;
-        padding: 1em;
-    }
+.projects-container h1 {
+    color: #ba003b;
+    font-size: 2.5rem;
+}
 
-    h1 {
-        text-align: center;
+.projects-container h1::selection {
+    color: #ba003b;
+    background-color: #e2e8f0;
+}
+
+@media (max-width: 430px) {
+    .projects-container h1 {
+        font-size: 2rem;
     }
 }

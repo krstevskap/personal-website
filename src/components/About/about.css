@@ -1,15 +1,20 @@
 .about-container {
-    color: #e2e8f0;
-    font-size: 1.2rem;
-    font-weight: 300;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 2.5em;
     align-items: center;
     text-align: justify;
     flex-wrap: wrap;
+    gap: 2.5em;
     padding: 1em;
-    min-height: 100vh;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #e2e8f0;
+}
+
+.about-container h1 {
+    color: #ba003b;
+    font-size: 2.5rem;
 }
 
 .about-container p,
@@ -30,34 +35,35 @@
 
 .link {
     text-decoration: none;
-    color: #ba003b;
+    color: #fff;
     font-weight: 500;
     font-size: 1.2rem;
 }
 
 .link:hover {
-    color: #dc0046;
+    color: #ba003b;
+}
+
+.about-container p::selection,
+.about-container a::selection,
+.about-container h1::selection,
+.about-container li::selection {
+    color: #ba003b;
+    background-color: #e2e8f0;
 }
 
 @media (max-width: 430px) {
     .about-container {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 350px) {
-    .about-container {
         text-align: center;
     }
-}
 
-@media (max-width: 240px) {
     .technologies {
         flex-direction: column;
         align-items: center;
+        text-align: start;
     }
 
-    h1 {
-        font-size: 1.75rem;
+    .about-container h1 {
+        font-size: 2rem;
     }
 }

@@ -1,24 +1,19 @@
 import React from "react";
+import { FiGithub } from "react-icons/fi";
 import "./card.css";
 
-const Card = ({ img, description, link, technologies }) => {
+const Card = ({ description, link, technologies, title }) => {
   return (
-    <article className="card-container">
-      <div className="card-img">
-        <img src={img} alt="project screenshot" />
-      </div>
-      <div className="card-content">
-        <p className="card-description">{description}</p>
+    <div className="card-container">
+      <h2>{title}</h2>
+      <p className="card-description">{description}</p>
+      <div className="card-footer">
         <p className="card-technologies">{technologies}</p>
-        <div className="button-container">
-          <button className="card-button">
-            <a href={link} target="_blank" rel="noopener noreferrer">
-              View Code
-            </a>
-          </button>
-        </div>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <FiGithub />
+        </a>
       </div>
-    </article>
+    </div>
   );
 };
 
