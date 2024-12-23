@@ -40,6 +40,11 @@
     background-color: #e2e8f0;
 }
 
+.links {
+    display: flex;
+    gap: 1em;
+}
+
 @media (max-width: 430px) {
     .card-container h2 {
         font-size: 1.3rem;

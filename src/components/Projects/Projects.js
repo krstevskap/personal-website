@@ -13,6 +13,7 @@ const Projects = () => {
             link="https://github.com/Timski-Proekt/TP"
             technologies="React, Java Spring, PostgreSQL"
             title="Digital Driver’s License Appointment Scheduler"
+            website=""
           />
         </div>
 
@@ -22,6 +23,7 @@ const Projects = () => {
             link="https://github.com/krstevskap/kanban-board"
             technologies="React"
             title="Kanban Board"
+            website="https://kanban-task-dashboard.vercel.app/"
           />
         </div>
       </div>
